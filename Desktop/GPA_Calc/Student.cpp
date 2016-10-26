@@ -3,12 +3,28 @@
 //Default constructor
 Student::Student()
 {
-first_name = "Parth";
+first_name = "";
 last_name = "";
 unique_id = 0;
 username= "";
 pw= "";
 }
+
+//Overloaded Contstruct
+Student::Student(string fname, string lname, string uname, string user_pw)
+{
+first_name = fname;
+last_name = lname;
+unique_id = 2;
+username= uname;
+pw= user_pw;
+
+
+
+}
+
+
+
 //Accessor Function. 
 string Student::get_fname()
 {

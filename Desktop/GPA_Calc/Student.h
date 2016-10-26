@@ -10,6 +10,10 @@ public:
 //Deflault constructor 
 Student();
 
+//Overloaded Constructor
+Student(string fname, string lname, string uname, string user_pw);
+
+
 //Accessor Function
 string get_fname();
 string get_lname();
