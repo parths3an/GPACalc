@@ -15,12 +15,9 @@ Student::Student(string fname, string lname, string uname, string user_pw)
 {
 first_name = fname;
 last_name = lname;
-unique_id = 2;
+//unique_id = 2;
 username= uname;
 pw= user_pw;
-
-
-
 }
 
 
@@ -58,30 +55,8 @@ pw = user_input;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Student::~Student()
 {
 //Don't do anything. 
 }
-
-
 

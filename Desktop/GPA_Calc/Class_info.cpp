@@ -1,4 +1,4 @@
-#include "Class.h"
+#include "Class_info.h"
 
 
 /*
@@ -8,7 +8,7 @@ class that student took.
 */
 
 //Constructor 
-Class::Class()
+Class_info::Class()
 {
 class_name = "NOT INITIALIZED";
 class_units = 0.0;
@@ -16,11 +16,11 @@ received units = 0.0;
 }
 
 //Destructor 
-Class::~Class()
+Class_info::~Class()
 {}
 
 //Overloadee Constructor
-Class::Class(string classname, double classunits, double receivedunits)
+Class_info::Class(string classname, double classunits, double receivedunits)
 {
 	class_name = classname; 
 	class_units = classunits;

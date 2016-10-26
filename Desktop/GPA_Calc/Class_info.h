@@ -6,25 +6,22 @@ is:
 3. Received units 
 and future class variables includse is this class a pre-req of something.
 */
-
-
-
+#include<string>
 #include<iostream>
 
-using namespace std; 
+using namespace std;
 
-
-class Class : Student  
+class Class_info  
 {
 public: 
 //Default constructor
-Class():
+Class_info():
 
 //Overaloaded Constructor 
-Class(string classname, double classunits, double receivedunits);
+Class_info(string classname, double classunits, double receivedunits);
 
 //Destructor
-~Class();
+~Class_info();
 
 
 
@@ -33,3 +30,4 @@ string class_name;
 double class_units; 
 double received_units; 
 };
+
