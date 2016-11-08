@@ -15,7 +15,7 @@ class Class_info
 {
 public: 
 //Default constructor
-Class_info():
+Class_info();
 
 //Overaloaded Constructor 
 Class_info(string classname, double classunits, double receivedunits);

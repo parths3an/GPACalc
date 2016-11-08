@@ -22,26 +22,26 @@ pw= user_pw;
 
 
 
-//Accessor Function. 
+//Accessor Function.
 string Student::get_fname()
 {
-	return first_name;  
+	return first_name;
 }
 
 string Student::get_lname()
 {
-	return last_name; 
+	return last_name;
 }
 
 string Student::get_username()
 {
-	return username; 
+	return username;
 }
 
-//Mutetor Funciton 
-string Student::set_fname(string fname)
+//Mutetor Funciton
+void Student::set_fname(string fname)
 {
- first_name = fname; 
+ first_name = fname;
 }
 
 string Student::set_lname(string lname)
@@ -57,6 +57,6 @@ pw = user_input;
 
 Student::~Student()
 {
-//Don't do anything. 
+//Don't do anything.
 }
 

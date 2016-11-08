@@ -8,19 +8,19 @@ class that student took.
 */
 
 //Constructor 
-Class_info::Class()
+Class_info::Class_info()
 {
 class_name = "NOT INITIALIZED";
 class_units = 0.0;
-received units = 0.0; 
+received_units = 0.0; 
 }
 
 //Destructor 
-Class_info::~Class()
+Class_info::~Class_info()
 {}
 
 //Overloadee Constructor
-Class_info::Class(string classname, double classunits, double receivedunits)
+Class_info::Class_info(string classname, double classunits, double receivedunits)
 {
 	class_name = classname; 
 	class_units = classunits;

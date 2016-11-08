@@ -11,9 +11,9 @@ void menu();
 
 int main()
 {
-//Variable declaration 
+//Variable declaration
 bool loop_terminator= true;
-string fname, lname, username,pw;
+string first_name="sam", lname="shah", username="kingcobra",pw="pw";
 int unique_id;
 
 
@@ -22,39 +22,41 @@ while(loop_terminator)
 //Give user the menu
 menu();
 
-loop_terminator = true; 
-int selection; 
+loop_terminator = true;
+int selection;
 
-//Allow user to make selection 
-cout << "Please enter a choice among 1-4: "; 
-cin >> selection; 
+//Allow user to make selection
+cout << "Please enter a choice among 1-4: ";
+cin >> selection;
 //Create a new object to save user info.
-Student s1(fname,lname,username,pw);
+Student s1(first_name,lname,username,pw);
 
-//swtich statement to take user info 
+//swtich statement to take user info
 	switch(selection)
 	{
 	 case 1:
-		{ 
- 		cout << "Please enter your first name: "; 
-       		cin >> fname; 
-		s1.set_fname(fname);	
-        	string user_firstname = s1.get_fname(); 
-		cout << "The user's name is: " << user_firstname << endl;
-		}
-		break;
-	case 8: 
 		{
-		  loop_terminator = false; 	
-		  break;	
+		string temp;
+ 		cout << "Please enter your first name: ";
+       		cin >> first_name;
+		s1.set_fname(first_name);
+        string user_firstname = s1.get_fname();
+		cout << "The user's name is: " << user_firstname << endl;
+		break;
+		}
+
+	case 8:
+		{
+		  loop_terminator = false;
+		  break;
 
 
-		}	 
+		}
 	default:
 		{
-		cout << "Please select a any option between 1-8."; 
+		cout << "Please select a any option between 1-8.";
 		}
-		break; 
+		break;
 	}
 } //For the while loop.
 
@@ -64,7 +66,7 @@ return 0;
 
 
 
-//Function definition 
+//Function definition
 
 void menu()
 {
