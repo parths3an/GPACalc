@@ -29,8 +29,9 @@ int selection;
 cout << "Please enter a choice among 1-4: ";
 cin >> selection;
 //Create a new object to save user info.
+vector<Class_info> new_class;
 Student s1(first_name,lname,username,pw);
-
+Student s2(5, new_class);
 //swtich statement to take user info
 	switch(selection)
 	{
@@ -40,7 +41,7 @@ Student s1(first_name,lname,username,pw);
  		cout << "Please enter your first name: ";
        		cin >> first_name;
 		s1.set_fname(first_name);
-        string user_firstname = s1.get_fname();
+		string user_firstname = s1.get_fname();
 		cout << "The user's name is: " << user_firstname << endl;
 		break;
 		}

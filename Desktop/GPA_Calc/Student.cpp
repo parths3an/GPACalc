@@ -21,6 +21,12 @@ pw= user_pw;
 }
 
 
+Student::Student(int student_id, vector<Class_info>& a_class)
+{
+cout << "This works";
+}
+
+
 
 //Accessor Function.
 string Student::get_fname()
