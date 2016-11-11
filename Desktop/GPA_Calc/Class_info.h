@@ -38,8 +38,10 @@ void setClass_units(double);
 /*
 This function is suppose to create a new class object with all the details and
 push_back to the vector and it willl return the vector
-
+Update:
+This function did not work out well so, create a global vector and keep adding elements to it.
 */
+//Function to return the vector after adding a new class_info obj everytime.
  vector<Class_info> new_Class_info();
 
 
@@ -54,5 +56,6 @@ protected:
 string class_name;
 double class_units;
 double received_units;
+vector<Class_info> new_classInfo;
 };
 

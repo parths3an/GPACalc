@@ -69,12 +69,14 @@ void Class_info::setClass_units(double classUnits)
  class_units = classUnits;
 }
 
+
+
  vector<Class_info> Class_info::new_Class_info()
 {
     //temp variables
     string temp_name;
     double temp_receivedcredit, temp_classUnits;
-    vector<Class_info> temp_vector;
+    //vector<Class_info> temp_vector;
 
 
     //Create a Class_info object Dynamically.
@@ -89,14 +91,10 @@ void Class_info::setClass_units(double classUnits)
     cout << endl;
 
     Class_info *temp_obj = new Class_info(temp_name, temp_receivedcredit, temp_classUnits);
-/*
-    temp_obj.setClass_name(temp_name);
-    temp_obj.setClass_units(temp_classUnits);
-    temp_obj.setClass_receivedcredit(temp_receivedcredit);
-*/
-    temp_vector.push_back(*temp_obj);
+
+    new_classInfo.push_back(*temp_obj);
     delete temp_obj;
-    return temp_vector;
+    return new_classInfo;
 
 }
 
