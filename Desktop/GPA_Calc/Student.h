@@ -12,8 +12,8 @@ public:
 //Deflault constructor
 Student();
 
-//Overloaded Constructor
-Student(string fname, string lname, string uname, string user_pw, vector<Class_info> new_class);
+//Overloaded Constructor with vector of class
+Student(string fname, string lname, string uname, string user_pw, vector<Class_info> &new_class);
 
 //Accessor Function
 string get_fname();

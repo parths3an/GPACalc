@@ -8,6 +8,7 @@ and future class variables includse is this class a pre-req of something.
 */
 #include<string>
 #include<iostream>
+#include<vector>
 
 using namespace std;
 
@@ -28,16 +29,30 @@ string getClass_name();
 double getClass_receivedcredit();
 double getClass_units();
 
+//Mutator Functions
+void setClass_name(string);
+void setClass_receivedcredit(double);
+void setClass_units(double);
+
+
+/*
+This function is suppose to create a new class object with all the details and
+push_back to the vector and it willl return the vector
+
+*/
+ vector<Class_info> new_Class_info();
+
+
+
+
+
 
 //Overloading << operator
 friend ostream& operator<<(ostream& out,Class_info &new_class);
-
-
 
 protected:
 string class_name;
 double class_units;
 double received_units;
-
 };
 

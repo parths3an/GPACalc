@@ -11,7 +11,7 @@ pw= "";
 }
 
 //Overloaded Contstruct
-Student::Student(string fname, string lname, string uname, string user_pw,vector<Class_info> classes_vector)
+Student::Student(string fname, string lname, string uname, string user_pw,vector<Class_info>& classes_vector)
 {
 first_name = fname;
 last_name = lname;
@@ -39,15 +39,12 @@ string Student::get_username()
 	return username;
 }
 
-
-
-
 void Student::get_classInfo_vector()
 {
 
 	for(unsigned int i=0; i < classInfo_vector.size(); i++)
 	{
-       //cout << classInfo_vector[i];
+       cout << classInfo_vector[i];
 	}
 }
 

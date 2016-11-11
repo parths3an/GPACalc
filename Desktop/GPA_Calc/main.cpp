@@ -19,7 +19,7 @@ string first_name="sam", lname="shah", username="kingcobra",pw="pw";
 while(loop_terminator)
 {
 //Give user the menu
-menu();
+//menu();
 
 loop_terminator = true;
 int selection;
@@ -36,11 +36,22 @@ new_class.push_back(class1);
 cout << new_class[0];
 */
 
+
 vector<Class_info> new_class;
 Class_info class1("CSE12", 4.0,4.0);
+Class_info class2("CSE 15L" ,2.0, 2.0);
+Class_info c3;
+c3.new_Class_info();
+new_class=c3.new_Class_info();
+cout << new_class.size();
 Student s1(first_name,lname,username,pw,new_class);
 
+//cout << new_class[0];
+//cout << new_class[1];
+s1.get_classInfo_vector();
 
+loop_terminator = false;
+/*
 //swtich statement to take user info
 	switch(selection)
 	{
@@ -70,11 +81,11 @@ Student s1(first_name,lname,username,pw,new_class);
 		break;
 	}
 } //For the while loop.
+*/
 
-return 0;
 }
-
-
+return 0;
+} //For the main function.
 
 
 //Function definition
