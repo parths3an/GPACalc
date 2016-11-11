@@ -6,16 +6,16 @@
 	<string>
 	<iostream>
 
-1478598182 source:/home/kingcobra93/Desktop/GPA_Calc/Student.cpp
+1478600963 source:/home/kingcobra93/Desktop/GPA_Calc/Student.cpp
 	"Student.h"
 
-1478600658 /home/kingcobra93/Desktop/GPA_Calc/Student.h
+1478831077 /home/kingcobra93/Desktop/GPA_Calc/Student.h
 	<iostream>
 	<string>
 	"Class_info.h"
 	<vector>
 
-1478600174 source:/home/kingcobra93/Desktop/GPA_Calc/main.cpp
+1478809481 source:/home/kingcobra93/Desktop/GPA_Calc/main.cpp
 	<iostream>
 	"Student.h"
 

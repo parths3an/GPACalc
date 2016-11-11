@@ -30,8 +30,8 @@ cout << "Please enter a choice among 1-4: ";
 cin >> selection;
 //Create a new object to save user info.
 vector<Class_info> new_class;
-Student s1(first_name,lname,username,pw);
-Student s2(5, new_class);
+Student s1(first_name,lname,username,pw,new_class);
+
 //swtich statement to take user info
 	switch(selection)
 	{

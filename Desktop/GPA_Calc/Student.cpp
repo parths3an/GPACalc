@@ -11,20 +11,15 @@ pw= "";
 }
 
 //Overloaded Contstruct
-Student::Student(string fname, string lname, string uname, string user_pw)
+Student::Student(string fname, string lname, string uname, string user_pw,vector<Class_info> classes_vector)
 {
 first_name = fname;
 last_name = lname;
-//unique_id = 2;
 username= uname;
 pw= user_pw;
+classInfo_vector = classes_vector;
 }
 
-
-Student::Student(int student_id, vector<Class_info>& a_class)
-{
-cout << "This works";
-}
 
 
 

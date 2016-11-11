@@ -13,12 +13,7 @@ public:
 Student();
 
 //Overloaded Constructor
-Student(string fname, string lname, string uname, string user_pw);
-
-//overlaoded constructor with Class_info objs
-Student(int student_id, vector<Class_info>& a_class);
-
-
+Student(string fname, string lname, string uname, string user_pw, vector<Class_info> new_class);
 
 //Accessor Function
 string get_fname();
@@ -42,7 +37,7 @@ string last_name;
 int unique_id;
 string username;
 string pw;               //To Save the password.
-Class_info new_class;
+vector<Class_info> classInfo_vector;
 };
 
 
