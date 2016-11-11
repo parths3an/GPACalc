@@ -23,6 +23,15 @@ Class_info(string classname, double classunits, double receivedunits);
 //Destructor
 ~Class_info();
 
+//Accessor functions
+string getClass_name();
+double getClass_receivedcredit();
+double getClass_units();
+
+
+//Overloading << operator
+friend ostream& operator<<(ostream& out,Class_info &new_class);
+
 
 
 protected:

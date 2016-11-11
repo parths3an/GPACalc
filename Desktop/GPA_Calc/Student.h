@@ -19,12 +19,12 @@ Student(string fname, string lname, string uname, string user_pw, vector<Class_i
 string get_fname();
 string get_lname();
 string get_username();
-
+void get_classInfo_vector();
 
 //Mutetor Funciton
-void set_fname(string fname);
+string set_fname(string fname);
 string set_lname(string lname);
-string set_pw(string user_input);
+void set_pw(string user_input);
 
 
 //Destructor

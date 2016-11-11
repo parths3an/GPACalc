@@ -1,5 +1,5 @@
 #include "Student.h"
-
+#include <vector>
 //Default constructor
 Student::Student()
 {
@@ -39,18 +39,32 @@ string Student::get_username()
 	return username;
 }
 
+
+
+
+void Student::get_classInfo_vector()
+{
+
+	for(unsigned int i=0; i < classInfo_vector.size(); i++)
+	{
+       //cout << classInfo_vector[i];
+	}
+}
+
 //Mutetor Funciton
-void Student::set_fname(string fname)
+string Student::set_fname(string fname)
 {
  first_name = fname;
+ return fname;
 }
 
 string Student::set_lname(string lname)
 {
  last_name = lname;
+ return lname;
 }
 
-string Student::set_pw(string user_input)
+void Student::set_pw(string user_input)
 {
 pw = user_input;
 }

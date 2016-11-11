@@ -1,21 +1,22 @@
 # depslib dependency file v1.0
-1477475465 source:/home/kingcobra93/Desktop/GPA_Calc/Class_info.cpp
+1478853627 source:/home/kingcobra93/Desktop/GPA_Calc/Class_info.cpp
 	"Class_info.h"
 
-1478600031 /home/kingcobra93/Desktop/GPA_Calc/Class_info.h
+1478853597 /home/kingcobra93/Desktop/GPA_Calc/Class_info.h
 	<string>
 	<iostream>
 
-1478600963 source:/home/kingcobra93/Desktop/GPA_Calc/Student.cpp
+1478852357 source:/home/kingcobra93/Desktop/GPA_Calc/Student.cpp
 	"Student.h"
+	<vector>
 
-1478831077 /home/kingcobra93/Desktop/GPA_Calc/Student.h
+1478851221 /home/kingcobra93/Desktop/GPA_Calc/Student.h
 	<iostream>
 	<string>
 	"Class_info.h"
 	<vector>
 
-1478809481 source:/home/kingcobra93/Desktop/GPA_Calc/main.cpp
+1478853804 source:/home/kingcobra93/Desktop/GPA_Calc/main.cpp
 	<iostream>
 	"Student.h"
 

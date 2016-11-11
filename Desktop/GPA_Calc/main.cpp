@@ -14,7 +14,6 @@ int main()
 //Variable declaration
 bool loop_terminator= true;
 string first_name="sam", lname="shah", username="kingcobra",pw="pw";
-int unique_id;
 
 
 while(loop_terminator)
@@ -28,14 +27,25 @@ int selection;
 //Allow user to make selection
 cout << "Please enter a choice among 1-4: ";
 cin >> selection;
+
 //Create a new object to save user info.
+/* Testing the operator overloading of << operator.
 vector<Class_info> new_class;
+Class_info class1("CSE12", 4.0,4.0);
+new_class.push_back(class1);
+cout << new_class[0];
+*/
+
+vector<Class_info> new_class;
+Class_info class1("CSE12", 4.0,4.0);
 Student s1(first_name,lname,username,pw,new_class);
+
 
 //swtich statement to take user info
 	switch(selection)
 	{
 	 case 1:
+		{
 		{
 		string temp;
  		cout << "Please enter your first name: ";
