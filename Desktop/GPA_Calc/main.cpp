@@ -46,8 +46,8 @@ new_class=c3.new_Class_info();
 cout << new_class.size();
 Student s1(first_name,lname,username,pw,new_class);
 
-//cout << new_class[0];
-//cout << new_class[1];
+s1.get_classInfo_vector();
+new_class=c3.new_Class_info();
 s1.get_classInfo_vector();
 
 loop_terminator = false;
