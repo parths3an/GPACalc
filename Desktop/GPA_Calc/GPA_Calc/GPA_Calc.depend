@@ -2,22 +2,22 @@
 1478908031 source:/home/kingcobra93/Desktop/GPA_Calc/Class_info.cpp
 	"Class_info.h"
 
-1478908101 /home/kingcobra93/Desktop/GPA_Calc/Class_info.h
+1479032044 /home/kingcobra93/Desktop/GPA_Calc/Class_info.h
 	<string>
 	<iostream>
 	<vector>
 
-1478857321 source:/home/kingcobra93/Desktop/GPA_Calc/Student.cpp
+1478908865 source:/home/kingcobra93/Desktop/GPA_Calc/Student.cpp
 	"Student.h"
 	<vector>
 
-1478857319 /home/kingcobra93/Desktop/GPA_Calc/Student.h
+1479031714 /home/kingcobra93/Desktop/GPA_Calc/Student.h
 	<iostream>
 	<string>
 	"Class_info.h"
 	<vector>
 
-1478908733 source:/home/kingcobra93/Desktop/GPA_Calc/main.cpp
+1478908964 source:/home/kingcobra93/Desktop/GPA_Calc/main.cpp
 	<iostream>
 	"Student.h"
 
