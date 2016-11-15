@@ -20,6 +20,17 @@ pw= user_pw;
 classInfo_vector = classes_vector;
 }
 
+//Overaloded Constructot with class_info vector
+//Overloaded Contstruct
+Student::Student(string fname, string lname, string uname, string user_pw,int *temp_ptr)
+{
+first_name = fname;
+last_name = lname;
+username= uname;
+pw= user_pw;
+temp_ptr = &classInfo_vector;
+}
+
 
 
 
