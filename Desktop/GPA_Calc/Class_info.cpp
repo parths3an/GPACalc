@@ -70,7 +70,8 @@ void Class_info::setClass_units(double classUnits)
 }
 
 
-/*Fix the problem in this function*/
+/*Fix the problem in this function
+
  vector<Class_info> Class_info::new_Class_info()
 {
     //temp variables
@@ -99,5 +100,5 @@ void Class_info::setClass_units(double classUnits)
 }
 
 
-
+*/
 
