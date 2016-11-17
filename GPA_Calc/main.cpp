@@ -41,13 +41,10 @@ vector<Class_info> new_class;
 Class_info class1("CSE12", 4.0,4.0);
 Class_info class2("CSE 15L" ,2.0, 2.0);
 Class_info c3;
-c3.new_Class_info();
-new_class=c3.new_Class_info();
 cout << new_class.size();
 Student s1(first_name,lname,username,pw,new_class);
 
 s1.get_classInfo_vector();
-new_class=c3.new_Class_info();
 s1.get_classInfo_vector();
 
 loop_terminator = false;

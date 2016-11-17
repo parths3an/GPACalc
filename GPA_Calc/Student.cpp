@@ -28,7 +28,6 @@ first_name = fname;
 last_name = lname;
 username= uname;
 pw= user_pw;
-temp_ptr = &classInfo_vector;
 }
 
 
