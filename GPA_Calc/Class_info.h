@@ -44,19 +44,17 @@ This function did not work out well so, create a global vector and keep adding e
 //Function to return the vector after adding a new class_info obj everytime.
  int new_Class_info();
 
-
-
-
-
-
 //Overloading << operator
 friend ostream& operator<<(ostream& out,Class_info &new_class);
 
-protected:
+
+
+
+private:
 string class_name;
 double class_units;
 double received_units;
-vector<Class_info> new_classInfo;
+
 int  *class_info_ptr;
 };
 

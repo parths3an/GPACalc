@@ -11,25 +11,25 @@ pw= "";
 }
 
 //Overloaded Contstruct
-Student::Student(string fname, string lname, string uname, string user_pw,vector<Class_info>& classes_vector)
+Student::Student(string fname, string lname, string uname, string user_pw)
 {
 first_name = fname;
 last_name = lname;
 username= uname;
 pw= user_pw;
-classInfo_vector = classes_vector;
 }
 
 //Overaloded Constructot with class_info vector
 //Overloaded Contstruct
-Student::Student(string fname, string lname, string uname, string user_pw,int *temp_ptr)
+/*
+Student::Student(string fname, string lname, string uname, string user_pw)
 {
 first_name = fname;
 last_name = lname;
 username= uname;
 pw= user_pw;
 }
-
+*/
 
 
 

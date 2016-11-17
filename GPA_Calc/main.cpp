@@ -36,15 +36,19 @@ new_class.push_back(class1);
 cout << new_class[0];
 */
 
+Student s1("Parth", "Shah", "parths3an", "password");
 
-vector<Class_info> new_class;
 Class_info class1("CSE12", 4.0,4.0);
 Class_info class2("CSE 15L" ,2.0, 2.0);
 Class_info c3;
-cout << new_class.size();
-Student s1(first_name,lname,username,pw,new_class);
+s1.classInfo_vector.push_back(class1);
+cout << s1.classInfo_vector.size();
+//Student s1(first_name,lname,username,pw,new_class);
 
 s1.get_classInfo_vector();
+//s1.get_classInfo_vector();
+
+s1.classInfo_vector.push_back(class2);
 s1.get_classInfo_vector();
 
 loop_terminator = false;

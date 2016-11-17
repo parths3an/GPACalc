@@ -13,10 +13,10 @@ public:
 Student();
 
 //Overloaded Constructor with vector of class
-Student(string fname, string lname, string uname, string user_pw, vector<Class_info> &new_class);
+Student(string fname, string lname, string uname, string user_pw);
 
 //Overaloded Constructor trial version with pointer to vector
-Student(string fname, string lname, string uname, string user_pw, int * classInfo_vecptr);
+//Student(string fname, string lname, string uname, string user_pw);
 
 //Accessor Function
 string get_fname();
@@ -32,6 +32,7 @@ void set_pw(string user_input);
 
 //Destructor
 ~Student();
+vector<Class_info> classInfo_vector;
 
 private:
 //Member variables
@@ -40,7 +41,7 @@ string last_name;
 int unique_id;
 string username;
 string pw;               //To Save the password.
-vector<Class_info> classInfo_vector;
+
 
 };
 
