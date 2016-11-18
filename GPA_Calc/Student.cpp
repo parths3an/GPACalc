@@ -34,29 +34,21 @@ pw= user_pw;
 
 
 //Accessor Function.
-string Student::get_fname()
+string Student::getFname()
 {
 	return first_name;
 }
 
-string Student::get_lname()
+string Student::getLname()
 {
 	return last_name;
 }
 
-string Student::get_username()
+string Student::getUsername()
 {
 	return username;
 }
 
-void Student::get_classInfo_vector()
-{
-
-	for(unsigned int i=0; i < classInfo_vector.size(); i++)
-	{
-       cout << classInfo_vector[i];
-	}
-}
 
 //Mutetor Funciton
 string Student::set_fname(string fname)

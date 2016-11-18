@@ -19,10 +19,9 @@ Student(string fname, string lname, string uname, string user_pw);
 //Student(string fname, string lname, string uname, string user_pw);
 
 //Accessor Function
-string get_fname();
-string get_lname();
-string get_username();
-void get_classInfo_vector();
+string getFname();
+string getLname();
+string getUsername();
 
 //Mutetor Funciton
 string set_fname(string fname);
