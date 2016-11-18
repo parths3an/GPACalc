@@ -28,22 +28,14 @@ int selection;
 cout << "Please enter a choice among 1-4: ";
 cin >> selection;
 
-//Create a new object to save user info.
-/* Testing the operator overloading of << operator.
-vector<Class_info> new_class;
-Class_info class1("CSE12", 4.0,4.0);
-new_class.push_back(class1);
-cout << new_class[0];
-*/
-
 Student s1("Parth", "Shah", "parths3an", "password");
+Student s2;
+s1.addClass(s1);
+s1.addClass(s1);
+s1.printClasses(s1);
 
-Class_info class1("CSE12", 4.0,"A");
+//s1.printClasses(s1);
 
-Class_info c3;
-s1.classInfo_vector.push_back(class1);
-cout << s1.classInfo_vector.size();
-//Student s1(first_name,lname,username,pw,new_class);
 
 loop_terminator = false;
 /*

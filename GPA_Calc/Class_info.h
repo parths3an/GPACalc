@@ -24,8 +24,6 @@ Class_info(string classname, double classunits, string receivedunits);
 //Destructor
 ~Class_info();
 
-
-
 //Accessor functions
 string getCname();
 string getCgrade();
@@ -43,19 +41,11 @@ double getCgradeDouble();
 //To convert the double values to String for the overloaded operator
 string doubleTo_string(double);
 
-
-/*
-This function is suppose to create a new class object with all the details and
-push_back to the vector and it willl return the vector
-Update:
-This function did not work out well so, create a global vector and keep adding elements to it.
-*/
-
 //Overloading << operator
 friend ostream& operator<<(ostream& out,Class_info &new_class);
 
-
-
+protected:
+vector<Class_info>classInfo_vector;
 
 private:
 string class_name;

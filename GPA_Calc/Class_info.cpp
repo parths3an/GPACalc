@@ -33,7 +33,6 @@ std::ostream& operator<<(std::ostream &out, Class_info& new_classInfo)
     // Since operator<< is a friend of the Point class, we can access Point's members directly.
     out << "\n Class: " << new_classInfo.getCname() << "\n " << "Class units: " << new_classInfo.getCunits()
         << "\n " <<"Received credits: " << new_classInfo.getCunits() << "\n";
-
     return out;
 }
 

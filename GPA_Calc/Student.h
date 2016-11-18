@@ -12,6 +12,9 @@ public:
 //Deflault constructor
 Student();
 
+//Destructor
+~Student();
+
 //Overloaded Constructor with vector of class
 Student(string fname, string lname, string uname, string user_pw);
 
@@ -27,11 +30,12 @@ string getUsername();
 string set_fname(string fname);
 string set_lname(string lname);
 void set_pw(string user_input);
+void addClass(Student);
+void printClasses(Student);
 
 
-//Destructor
-~Student();
-vector<Class_info> classInfo_vector;
+
+protected:
 
 private:
 //Member variables
@@ -40,8 +44,9 @@ string last_name;
 int unique_id;
 string username;
 string pw;               //To Save the password.
-
-
+//vector<Class_info>classInfo_vector;
+vector<double>totalUnits;
+vector<double>earnedCredit;
 };
 
 
