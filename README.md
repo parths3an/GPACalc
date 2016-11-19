@@ -4,3 +4,4 @@ Currently, It will allow you to calcualte the GPA for simple grading scale, whic
 A - 4.0 
 B - 3.0 and so on. 
 Later on, it will be able to calculate the GPA for different scale than traditional scale as well. 
+# StudentFolio
